@@ -1,0 +1,13 @@
+{
+    "name": "picocms/gallery-theme",
+    "type": "pico-theme",
+    "description": "A responsive theme with an image background",
+    "keywords": [ "pico", "picocms", "picocms-theme", "pico-theme", "gallery-theme" ],
+    "homepage": "http://picocms.org/",
+    "license": "CC0",
+    "authors": [
+        {
+            "name": "Ivan Stanton"
+        },
+    ],
+}
