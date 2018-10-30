@@ -27,7 +27,7 @@
     {% for page in pages if page.title %}
         {% set pageDepth = page.id|split('/')|length %}
         {% if (pageDepth == 2) and (page.id ends with "/index") or (pageDepth == 1) %}
-            <li>
+            <li {% if page.id == current_page.id %} class="active"{% endif %}>
                 <a href="{{ page.url }}">{{ page.title }}</a>
             </li>
         {% endif %}
