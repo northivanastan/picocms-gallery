@@ -141,3 +141,6 @@ text-align: left;
 .navigation li.active {
 background-color: rgba(255,255,255,0.1);
 }
+.navigation li.active:hover {
+background-color: rgba(255,255,255,0.2);
+}
